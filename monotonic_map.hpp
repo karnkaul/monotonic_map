@@ -200,7 +200,7 @@ monotonic_map<T, Mp>& monotonic_map<T, Mp>::operator=(monotonic_map&& rhs) noexc
 }
 
 template <typename T, typename Mp>
-monotonic_map<T, Mp>::~monotonic_map<T, Mp>() noexcept {
+monotonic_map<T, Mp>::~monotonic_map() noexcept {
 	destroy();
 }
 
